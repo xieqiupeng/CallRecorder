@@ -2,7 +2,8 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion project.sdk
-
+    buildToolsVersion "27.0.3"
+    
     defaultConfig {
         applicationId "com.aykuttasil.callrecorder"
         minSdkVersion project.minSdk
